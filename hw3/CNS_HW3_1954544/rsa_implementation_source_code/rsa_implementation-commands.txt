@@ -1,0 +1,3 @@
+./RSA -g public_key private_key 2048
+./RSA -e input encrypted_rsaimplementation public_key
+./RSA -d encrypted_rsaimplementation decrypted_rsaimplementation private_key
